@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 950px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Norse-Bold';
+}
+
+aside {
+    flex: 40%;
+    height: 100%;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+aside div {
+    position: relative;
+    top: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+aside div img {
+    width: 70px;
+    height: 90px;
+}
+  
+
+aside div p {
+    color: blanchedalmond;
+    font-size: 60px;
+    font-family: "Skranji", system-ui;
+}
+
+section {
+    flex: 50%;
+    height: 100%;
+    background-color: rgb(217, 228, 228);
+}
+
+section form {
+    position: relative;
+    top: 270px;
+    padding: 20px;
+    background-color: rgb(240, 247, 247);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 1px solid rgb(192, 191, 191);
+}
+
+section form div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+
+section form div label {
+    font-size: 10px;
+}
+
+section form div input {
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+section form div input:focus {
+    border: 1px solid blue;
+    box-shadow: 2px 2px 5px 1px blue;
+}
+
+section form div input:invalid {
+    border: 1px solid red;
+}
+
+section form div input:valid {
+    border: 1px solid green;
+}
+
+section button {
+    position: relative;
+    top: 300px;
+    left: 30px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: #596D48;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+section p {
+    position: relative;
+    top: 320px;
+    left: 30px;
+}
+
+section p a:link {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
